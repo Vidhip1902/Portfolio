@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Vidhi's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#firstSection">home</a></li>
+            <li><a href="#SecondSection">project</a></li>
+            <li><a href="#ThirdSection">experience</a></li>
+            <li><a href="#FourthSection">about</a></li>
+            <li><a href="#contact">contact me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div id="firstSection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple"> Vidhi</span>
+          <div>and I am a CE Student,</div>
+          <div>also I am a Passionate</div>
+
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="developer.png" />
+        </div>
+      
+      </div>
+
+      <hr />
+
+      <div id="SecondSection">
+        <span class="gray">What I Have Done So Far</span>
+        <h1>PROJECTS</h1>
+        <div class="box">
+          <div class="vertical">
+            <div class="vertical-title">WEATHER API PROJECT</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-title">WEATHER API PROJECT</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-title">WEATHER API PROJECT</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-title">WEATHER API PROJECT</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-title">WEATHER API PROJECT</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </div>
+          </div>
+          <div class="vertical">
+            <div class="vertical-title">WEATHER API PROJECT</div>
+            <div class="vertical-desc">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <div id="ThirdSection">
+        <h1>EXPERIENCES</h1>
+        <div class="box">
+          <div class="certi1">
+            Internship
+            <button class="button"><a href="display.png">open</a></button>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit,
+              omnis?
+            </p>
+          </div>
+          <div class="certi1">
+            Internship
+            <button class="button"><a href="display.png">open</a></button>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit,
+              omnis?
+            </p>
+          </div>
+          <div class="certi1">
+            Internship
+            <button class="button"><a href="display.png">open</a></button>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit,
+              omnis?
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr />
+
+      <div id="FourthSection">
+        <div class="container">
+          <div class="row">
+            <div class="about-col1">
+              <img src="developer.png" alt="" />
+            </div>
+            <div class="about-col2">
+              <h1>About Me</h1>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui
+                voluptatum doloribus eos tempora, alias officia sequi facere
+                minus, harum asperiores quis sapiente, molestias magni quasi
+                vel. Aperiam aliquam excepturi atque!
+              </p>
+
+              <div class="tab-title">
+                <h2>Skills</h2>
+              </div>
+              <div class="tab1">
+                <ul>
+                  <li><span>Web developing</span><br />UI/UX</li>
+                  <li><span>Web developing</span><br />UI/UX</li>
+                  <li><span>Web developing</span><br />UI/UX</li>
+                </ul>
+              </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div id="contact">
+        <div class="container">
+          
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-regular fa-envelope"></i>vkpatel01092002@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i>8200426158</p>
+              <div class="social-icons">
+                <a href="https://linkdin.com/"><i class="fa-brands fa-linkedin"></i>  linkdin account</a>
+              
+              </div>
+          </div>
+            <div class="contact-right"></div>
+              <form name="submit-to-google-sheet">
+                <input type="text" name="name" placeholder="your name" required>
+                <input type="text" name="email" placeholder="your email" required>
+                <textarea name="message" placeholder="your message" required></textarea>
+                <button type="submit" class="btn1"> Submit </button>
+              </form>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer.", "Graphic Designer.", "Web Designer."],
+        typeSpeed: 50,
+      });
+    </script>
+    <script src="https://kit.fontawesome.com/da35c74b3a.js" crossorigin="anonymous"></script>
+
+    <script>
+      const scriptURL = '<https://script.google.com/macros/s/AKfycbycPQUsryoixfub-UE7Pk14bBgw79iWoz4sMK6uW7LX8-OX0SHMOoZCWebPp8VdooKr/exec>'
+      const form = document.forms['submit-to-google-sheet']
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => console.log('Success!', response))
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+    
+  </body>
+</html>
